@@ -11,20 +11,19 @@ var count = 0;
     case 7:
     case 8:
     case 9:
-   count = count; break;
+    count = count; break;
     case 10:
     case 'J':
     case 'Q':
     case 'K':
     case 'A':
-     count --; break;
+    count --; break;
   }
   if(count > 0) return "Bet";
   else if (count <= 0) return "Hold";
   
   else return "Change Me";
   
-  return "Change Me";
   // Only change code above this line
 }
 
